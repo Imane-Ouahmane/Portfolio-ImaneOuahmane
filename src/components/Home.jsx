@@ -1,6 +1,8 @@
 import React from "react";
 import HeroImage from "../assets/HeroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { Link } from "react-scroll";
+
 
 function Home() {
   return (
@@ -19,21 +21,21 @@ function Home() {
             MongoDB, React.js ...
           </p>
           <div>
-            <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+            <Link to="portfolio" smooth duration={500} className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
               Portfolio
               <span className="group-hover:rotate-90 duration-300 ">
                 <MdOutlineKeyboardArrowRight size={30} className="ml-1" />
               </span>
-            </button>
-          </div>
+            </Link>
+          </div>  
         </div>
-        <div className="md:w-1/2 z-0">
+        {/* <div className="md:w-1/2 z-0">
           <img
             src={HeroImage}
             alt="my Profile"
             className="rounded-2xl mx-auto w-2/3 md:w-full"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
