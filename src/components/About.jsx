@@ -7,24 +7,22 @@ function About() {
             <div className='pb-8' >
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
             </div>
-            <p className='text-xl mt-20 '>
-                Lorem ipsum dolor sit amet consectetur
-                 adipisicing elit. Quae magnam voluptas
-                dolorem, in tenetur iure, voluptates id vel,
-                fugiat consectetur praesentium? Accusantium
-                provident dignissimos perferendis.
-                 Rem odio praesentium alias inventore?
+            <p className='text-xl mt-20 '> 
+            Hi, I'm Imane Ouahmane, a passionate Full Stack Developer. My journey in the world of programming began 
+            with a deep curiosity and love for creating solutions that make a positive impact. In the past, I have worked 
+            on a variety of projects, gaining proficiency in both frontend and backend technologies. On the frontend, I 
+            specialize in crafting intuitive and responsive user interfaces using modern frameworks such as React.js. On the 
+            backend, I've developed server-side logic, API integration, and database management with technologies like Node.js,
+             Express, and MongoDB. My technical skill set includes expertise in HTML, CSS, JavaScript, React.js, Node.js, Express.js,
+             MongoDB, and more. I am also well-versed in version control systems like Git and collaborative tools like GitHub.
             </p>
             <br />
             <p className='text-xl'>
-                Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Quam qui architecto tempore
-                 fuga dicta, itaque sapiente ab dolorem. Error 
-                 unde reiciendis ducimus cupiditate esse, 
-                 quia sint magni minima qui hic. Est nostrum 
-                 odio illo atque ad et numquam sequi recusandae
-                  officia veritatis nemo expedita repellendus,
-                 consectetur a non! Culpa, earum!
+            I am passionate about staying updated with the latest industry trends and 
+            technologies to deliver cutting-edge solutions. My goal is to contribute to
+             projects that challenge me and allow me to continuously grow as a developer.
+              Let's build something amazing together! Feel free to reach out for collaboration,
+               inquiries, or just to say hello.
             </p>
         </div>
     </div>

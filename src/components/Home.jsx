@@ -16,7 +16,7 @@ function Home() {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Hi! My name is Alex, and I am a full-stack developer with experience
+            Hi! My name is Imane, and I am a full-stack developer with experience
             in building web applications using JavaScript, Node.js, Express,
             MongoDB, React.js ...
           </p>
