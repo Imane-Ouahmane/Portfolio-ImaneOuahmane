@@ -1,32 +1,46 @@
-import React from 'react'
+import React from 'react';
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+import { FaGraduationCap, FaCertificate, FaCode } from 'react-icons/fa';
 
 function About() {
   return (
-    <div name='about' className='w-full h-screen bg-gradient-to-b from-gray-900 to-black text-white'>  
-        <div className='max-w-screen-lg p-4 mx-auto flex flex-col  justify-center w-full h-full'>
-            <div className='pb-8' >
-                <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
-            </div>
-            <p className='text-xl mt-20 '> 
-            Hi, I'm Imane Ouahmane, a passionate Full Stack Developer. My journey in the world of programming began 
-            with a deep curiosity and love for creating solutions that make a positive impact. In the past, I have worked 
-            on a variety of projects, gaining proficiency in both frontend and backend technologies. On the frontend, I 
-            specialize in crafting intuitive and responsive user interfaces using modern frameworks such as React.js. On the 
-            backend, I've developed server-side logic, API integration, and database management with technologies like Node.js,
-             Express, and MongoDB. My technical skill set includes expertise in HTML, CSS, JavaScript, React.js, Node.js, Express.js,
-             MongoDB, and more. I am also well-versed in version control systems like Git and collaborative tools like GitHub.
-            </p>
-            <br />
-            <p className='text-xl'>
-            I am passionate about staying updated with the latest industry trends and 
-            technologies to deliver cutting-edge solutions. My goal is to contribute to
-             projects that challenge me and allow me to continuously grow as a developer.
-              Let's build something amazing together! Feel free to reach out for collaboration,
-               inquiries, or just to say hello.
-            </p>
-        </div>
+    <div name='about' className='w-full  bg-gradient-to-b from-gray-900 to-black text-white'>
+      <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full'>
+        <div className='pb-8'>
+          <p className='text-4xl font-bold inline border-b-4 border-gray-500 text-white'>About</p>
+        </div> 
+        <VerticalTimeline lineColor='#fff'>
+          <VerticalTimelineElement
+            className='vertical-timeline-element--education text-white'
+            iconStyle={{ background: 'black', color: '#fff', position: 'absolute', top: '0' }}
+            icon={<FaGraduationCap />}
+            date='2021-2023'>
+            <h3 className='text-xl font-semibold text-black mb-2'>Education</h3>
+            <p className='text-black'>Technician specialized in digital development</p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className='vertical-timeline-element--education text-white'
+            iconStyle={{ background: 'black', color: '#fff', position: 'absolute', top: '0' }}
+            icon={<FaCertificate />}
+            date='08/2023-12/2023'>
+            <h3 className='text-xl font-semibold text-black mb-2'>JobInTech</h3>
+            <p className='text-black'>Full Stack MERN Developer</p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className='vertical-timeline-element--intership text-white'
+            iconStyle={{ background: 'black', color: '#fff', position: 'absolute', top: '0' }}
+            icon={<FaCode />}
+            date='08/2023-12/2023'>
+            <h3 className='text-xl font-semibold text-black mb-2'>ARKx Academy</h3>
+            <p className='text-black'>MERN Stack Developer Internship</p>
+          </VerticalTimelineElement>
+        </VerticalTimeline>
+      </div>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;
