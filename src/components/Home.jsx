@@ -7,11 +7,11 @@ function Home() {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-900 relative z-0"
+      className="h-screen w-full bg-white relative z-0"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4">
+      <div className="grid grid-cols-1 max-w-screen-lg mx-auto md:flex-row items-center justify-center h-full px-4">
         <div className="md:w-1/2 z-10 mt-20 text-center md:text-left">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white mb-4">
+          <h2 className="text-4xl sm:text-4xl font-bold text-black mb-4">
             I'm a <br />
             <ReactTyped
               strings={["Full Stack Developer"]}

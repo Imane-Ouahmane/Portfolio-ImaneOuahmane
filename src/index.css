@@ -10,3 +10,15 @@
     font-family: 'Raleway', sans-serif;
   }
 }
+
+/* @keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.slide-in {
+  animation: slide 10s linear infinite; /* Adjust the duration as needed }*/
