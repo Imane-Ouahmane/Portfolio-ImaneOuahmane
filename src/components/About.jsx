@@ -16,19 +16,19 @@ function About() {
       return (
         <VerticalTimeline lineColor='#000'>
             <VerticalTimelineElement
-              className='vertical-timeline-element--education text-white'
+              className='vertical-timeline-element--education text-black'
               iconStyle={{ background: 'black', color: '#fff', position: 'absolute', top: '0' }}
               icon={<FaCertificate />}
-              date='08/2023-12/2023'>
+              date='08/2023 - 12/2023'>
               <h3 className='text-xl font-semibold text-black mb-2'>JobInTech</h3>
               <p className='text-black'>Full Stack MERN Developer</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-              className='vertical-timeline-element--education text-white'
+              className='vertical-timeline-element--education text-black'
               iconStyle={{ background: 'black', color: '#fff', position: 'absolute', top: '0' }}
               icon={<FaGraduationCap />}
-              date='2021-2023'>
-              <h3 className='text-xl font-semibold text-black mb-2'>Education</h3>
+              date='09/2021 - 07/2023'>
+              <h3 className='text-xl font-semibold text-black mb-2'>OFPPT</h3>
               <p className='text-black'>Technician specialized in digital development</p>
             </VerticalTimelineElement>
         </VerticalTimeline>
@@ -37,7 +37,7 @@ function About() {
       return (
         <VerticalTimeline lineColor='#000'>
           <VerticalTimelineElement
-              className='vertical-timeline-element--intership text-white'
+              className='vertical-timeline-element--intership text-black'
               iconStyle={{ background: 'black', color: '#fff', position: 'absolute', top: '0' }}
               icon={<FaCode />}
               date='08/2023-12/2023'>
