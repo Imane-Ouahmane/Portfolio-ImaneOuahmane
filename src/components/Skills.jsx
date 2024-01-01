@@ -114,7 +114,7 @@ function Skills() {
           centeredSlides={true}
           spaceBetween={30}
           autoplay={{
-            delay: 2500,
+            delay: 900,
             disableOnInteraction: false,
             
           }}

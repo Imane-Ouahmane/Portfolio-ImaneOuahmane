@@ -1,5 +1,5 @@
 import React from 'react';
-import portfolio from '../assets/portfolio/portfoimg.jpg';
+import portfolio from '../assets/portfolio/portfolioimg.jpg';
 
 function Projects() {
   const portfolios = [

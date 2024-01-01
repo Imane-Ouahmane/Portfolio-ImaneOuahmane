@@ -12,7 +12,7 @@ function Home() {
       <div className="grid grid-cols-1 max-w-screen-lg mx-auto md:flex-row items-center justify-center h-full px-4">
         <div className="md:w-1/2 z-10 mt-20 text-center md:text-left">
           <h2 className="text-4xl sm:text-4xl font-bold text-black mb-4">
-            I'm a <br />
+            I'm Imane Ouahmane a <br />
             <ReactTyped
               strings={["Full Stack Developer"]}
               typeSpeed={100}
