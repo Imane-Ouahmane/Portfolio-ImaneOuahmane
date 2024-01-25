@@ -43,7 +43,15 @@ function About() {
               date='08/2023-12/2023'>
               <h3 className='text-xl font-semibold text-black mb-2'>ARKx Academy</h3>
               <p className='text-black'>MERN Stack Developer Internship</p>
-            </VerticalTimelineElement>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+              className='vertical-timeline-element--intership text-black'
+              iconStyle={{ background: 'black', color: '#fff', position: 'absolute', top: '0' }}
+              icon={<FaCode />}
+              date='01/2024-present'>
+              <h3 className='text-xl font-semibold text-black mb-2'>AJICOD Agency</h3>
+              <p className='text-black'>Full Stack Developer Internship</p>
+          </VerticalTimelineElement>
         </VerticalTimeline>
       );
     }
