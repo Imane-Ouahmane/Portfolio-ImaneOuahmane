@@ -40,7 +40,7 @@ function SocialLinks() {
           Resume <BsFillPersonFill size={30} />
         </>
       ),
-      href: '/public/Full Stack MERN Devloper Imane Ouahmane.pdf',
+      href: '/public/Full Stack Devloper.pdf',
       style: 'rounded-br-md',
       download: true,
     },

@@ -48,7 +48,7 @@ function About() {
               className='vertical-timeline-element--intership text-black'
               iconStyle={{ background: 'black', color: '#fff', position: 'absolute', top: '0' }}
               icon={<FaCode />}
-              date='01/2024-present'>
+              date='01/2024-04/2024'>
               <h3 className='text-xl font-semibold text-black mb-2'>AJICOD Agency</h3>
               <p className='text-black'>Full Stack Developer Internship</p>
           </VerticalTimelineElement>

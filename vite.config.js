@@ -13,4 +13,6 @@ export default defineConfig({
       },
     },
   },
+  base: '/Portfolio-ImaneOuahmane/', // This is your repository name on GitHub
+
 });
